@@ -37,6 +37,10 @@ def parse_arguments(args):
         help='Email for the new account (defaults to random email-like string).'
     )
     parser.add_argument(
+        '-m', '--plusmail', type=str, default=None,
+        help='Email template for the new account. Use something like aaaa+@gmail.com (defaults to nothing).'
+    )
+    parser.add_argument(
         '-b', '--birthday', type=str, default=None,
         help='Birthday for the new account. Must be YYYY-MM-DD. (defaults to a random birthday).'
     )
@@ -53,7 +57,7 @@ def entry():
     args = parse_arguments(sys.argv[1:])
     for x in range(0,args.count):
         try:
-            account_info = pikapy.random_account(args.username, args.password, args.email, args.birthday)
+            account_info = pikapy.random_account(args.username, args.password, args.email, args.birthday, args.plusmail)
             
             print('  Username:  {}'.format(account_info["username"]))
             print('  Password:  {}'.format(account_info["password"]))

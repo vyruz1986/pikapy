@@ -190,10 +190,13 @@ def _validate_response(driver):
         raise PTCException("Generic failure. User was not created.")
 
 
-def random_account(username=None, password=None, email=None, birthday=None):
+def random_account(username=None, password=None, email=None, birthday=None, plusmail=None):
     try_username = _random_string() if username is None else str(username)
     password = _random_string() if password is None else str(password)
     try_email = _random_email() if email is None else str(email)
+    if plusmail is not None:
+        pm = plusmail.split("+@")
+        try_email = pm[0] + "+" + try_username + "@" + pm[1]
     try_birthday = _random_birthday() if birthday is None else str(birthday)
 
     if birthday is not None:
