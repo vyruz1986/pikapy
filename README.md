@@ -89,7 +89,7 @@ Example 3 (Create a new account with specified parameters)::
       Password:  hunter2
       Email   :  verifiable@lackmail.ru
 
-Example 3 (Create a new account with mail using "plus trick")::
+Example 4 (Create a new account with mail using "plus trick")::
 
     ~pikapy -m TVKzlu1AcW+@6yxi6.com
     Created new account:
