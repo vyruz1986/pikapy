@@ -74,34 +74,34 @@ Example 1 (Create entirely random new account)::
 
     ~pikapy
     Created new account:
-      Username:  dGXJXnAzxqmjbaP
-      Password:  yUbiAgcXhBrEwHk
-      Email   :  TVKzlu1AcW@6yxi6.com
+      Username:  traynagmoh
+      Password:  rossstrubhep
+      Email   :  fantsniskflast@gastsnub.com
       
 Example 2 (Create 2 accounts with the same password)::
 
     ~pikapy -p password -c 2
     Created new account:
-      Username:  dGXJXnAzxqmjbaP
+      Username:  trodbectflik
       Password:  password
-      Email   :  TVKzlu1AcW@6yxi6.com
+      Email   :  prepsteptcruct@gastsnub.com
     Created new account:
-      Username:  vKEkp19eb0l4mFW
+      Username:  truzplospduv
       Password:  password
-      Email   :  TVKzlu1AcW@6yxi6.com
+      Email   :  linkslampnob@gastsnub.com
       
 Example 3 (Create a new account with specified parameters)::
 
     ~pikapy --username=mycustomusername --password=hunter2 --email=verifiable@lackmail.ru
     Created new account:
-      Username:  mycustomusername
+      Username:  mycusttruzplospduv:trodbectflikomusername
       Password:  hunter2
       Email   :  verifiable@lackmail.ru
 
 Example 4 (Create a new account with mail using "plus trick")::
 
-    ~pikapy -m TVKzlu1AcW+@6yxi6.com
+    ~pikapy -m myemail+@gmail.com
     Created new account:
-      Username:  dGXJXnAzxqmjbaP
+      Username:  wongblofttez
       Password:  password
-      Email   :  TVKzlu1AcW+dGXJXnAzxqmjbaP@6yxi6.com
+      Email   :  myemail+swuchdranflost@gmail.com
