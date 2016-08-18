@@ -28,6 +28,7 @@ setup(
     install_requires=[
         'requests[security]==2.10.0',
         'six==1.10.0',
+        'selenium==2.53.6'
     ],
     classifiers=[
         'Programming Language :: Python',
