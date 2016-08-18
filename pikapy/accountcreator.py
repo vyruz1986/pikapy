@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import StaleElementReferenceException
-from strings import *
+from pikapy.jibber import *
 from pikapy.ptcexceptions import *
 
 BASE_URL = "https://club.pokemon.com/us/pokemon-trainer-club"
