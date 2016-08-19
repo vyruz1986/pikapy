@@ -229,5 +229,5 @@ def random_account(username=None, password=None, email=None, birthday=None, plus
     return {
         "username": try_username,
         "password": password,
-        "email": try_email,
+        "email": try_email
     }
