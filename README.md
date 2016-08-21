@@ -6,7 +6,10 @@ Description
 -----------
 Automatically creates Pokemon Trainer Club accounts, and reads the ToS making them usable after the recent Niantic patch.
 Text files will be created in your current directory.
-For 2captcha API solving, go here: https://github.com/sriyegna/pikaptcha
+
+Far more superior fork of this (Has 2captcha support, and email verification, and is under active development):         
+
+    https://github.com/sriyegna/pikaptcha
 
 Requires pgoapi:
     
