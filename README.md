@@ -8,6 +8,11 @@ Automatically creates Pokemon Trainer Club accounts, and reads the ToS making th
 Text files will be created in your current directory.
 For 2captcha API solving, go here: https://github.com/sriyegna/pikaptcha
 
+Requires pgoapi:
+    
+    pip install git+https://github.com/keyphact/pgoapi.git
+
+
 Installation
 ------------
 **Windows users**
