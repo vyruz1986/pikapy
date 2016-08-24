@@ -20,6 +20,10 @@ Installation
 ------------
 **Windows users**
 
+Video guide:
+
+https://www.youtube.com/watch?v=_wM6OX4GdNM
+
 Install all the necessary prerequisites as listed here:
 
 http://pgm.readthedocs.io/en/develop/basic-install/windows.html
