@@ -78,7 +78,7 @@ def entry():
                 accept_tos(account_info["username"], account_info["password"])
             # Append usernames 
             with open("usernames.txt", "a") as ulist:
-                ulist.write(account_info["username"]+":"+account_info["password"]+":"+account_info["email"]+"\n")
+                ulist.write("ptc,"+account_info["username"]+","+account_info["password"]+","+account_info["email"]+"\n")
                 ulist.close()
         # Handle account creation failure exceptions
         except PTCInvalidPasswordException as err:
